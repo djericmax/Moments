@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './moment-form.component.css'
 })
 export class MomentFormComponent implements OnInit {
-
+  btn_text = '';
   constructor(){}
 
   ngOnInit(): void {
